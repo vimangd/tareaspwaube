@@ -1,0 +1,38 @@
+body {
+    background-color: #94918C;
+}
+.slider{
+    overflow: hidden;
+}
+.slider-inner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    transition: all 0.3s ease-in;
+}
+.slider-inner img{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3 {
+    background-color: #3F4247;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 30px;
+    width: 250px;
+}
+h3:hover {
+    background-color: #fff;
+    color: #3F4247;
+}

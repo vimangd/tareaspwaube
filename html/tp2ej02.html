@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 2 Ejercicio 2</title>
+    <link rel="stylesheet" href="../style/styletp2ej02.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div id="contenedor">
+            <form name="calculadora">
+                <input type="textfield" name="pantalla" value="" autocomplete="off" readonly>
+
+                <input type="button" value="7" onclick="document.calculadora.pantalla.value+='7'" class="numero">
+                <input type="button" value="8" onclick="document.calculadora.pantalla.value+='8'" class="numero">
+                <input type="button" value="9" onclick="document.calculadora.pantalla.value+='9'" class="numero">
+                <input type="button" value="+" onclick="document.calculadora.pantalla.value+='+'" class="operador">
+                <br>
+                <input type="button" value="4" onclick="document.calculadora.pantalla.value+='4'" class="numero">
+                <input type="button" value="5" onclick="document.calculadora.pantalla.value+='5'" class="numero">
+                <input type="button" value="6" onclick="document.calculadora.pantalla.value+='6'" class="numero">
+                <input type="button" value="-" onclick="document.calculadora.pantalla.value+='-'" class="operador">
+                <br>
+                <input type="button" value="1" onclick="document.calculadora.pantalla.value+='1'" class="numero">
+                <input type="button" value="2" onclick="document.calculadora.pantalla.value+='2'" class="numero">
+                <input type="button" value="3" onclick="document.calculadora.pantalla.value+='3'" class="numero">
+                <input type="button" value="X" onclick="document.calculadora.pantalla.value+='*'" class="operador">
+                <br>
+                <input type="button" value="0" onclick="document.calculadora.pantalla.value+='0'" class="numero">
+                <input type="reset" value="C" class="reset">
+                <input type="button" value="=" onclick="document.calculadora.pantalla.value=eval(document.calculadora.pantalla.value)" class="igual">
+                <input type="button" value="/" onclick="document.calculadora.pantalla.value+='/'" class="operador">
+            </form>
+        </div>
+        <a href="tp2.html"><h3>Volver a la tarea 2</h3></a>
+    </div>
+</body>
+</html>

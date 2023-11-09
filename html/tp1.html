@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/styletp1.css">
+    <title>Clase práctica 1</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="vertical">
+                <h1>Tarea práctica 1</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#ej1">Ejercicio 1</a></li>
+                        <li><a href="#ej2">Ejercicio 2</a></li>
+                        <li><a href="#ej3">Ejercicio 3</a></li>
+                        <li><a href="#ej4">Ejercicio 4</a></li>
+                        <li><a href="#ej5">Ejercicio 5</a></li>
+                        <li><a href="#ej6">Ejercicio 6</a></li>
+                        <li><a href="../index.html">Volver a las tareas</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--Ejercicio 1-->
+    <section id="ej1">
+        <div class="ej">
+            <h1>Ejercicio 1</h1>
+            <br>
+            <h1>Hola mundo</h1>
+            <p>Victor Manuel Gómez Delgado</p>
+        </div>
+    </section>
+    <!--Ejercicio 2-->
+    <section id="ej2">
+        <div class="ej">
+            <h1>Ejercicio 2</h1>
+            <div class="horizontal">
+                <img id="ins" src="../img/instagram.png">
+                <a class="boton" href="https://www.instagram.com/victormanuel_gomez/" target="_blank">Instagram</a>
+            </div>
+            <h3>Pasatiempos</h3>
+            <ul>
+                <li>Jugar y ver beisbol</li>
+                <li>Ver películas y series</li>
+                <li>Jugar videojuegos con historia</li>
+            </ul>
+        </div>
+    </section>
+    <!--Ejercicio 3-->
+    <section id="ej3">
+        <div class="ej">
+            <h1>Ejercicio 3</h1>
+            <table>
+                <tr>
+                    <th>Iteraciones</th>
+                    <th>Países</th>
+                    <th>Capitales</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Ecuador</td>
+                    <td>Quito</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Cuba</td>
+                    <td>La Habana</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Estados Unidos</td>
+                    <td>Washington</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <!--Ejercicio 4-->
+    <section id="ej4">
+        <div class="ej">
+            <h1>Ejercicio 4</h1>
+            <form action="https://formsubmit.co/vmgomezd@ube.edu.ec" method="POST">
+            <!--Luego del slash se puede poner la dirección del correo que se quiera
+            que llegue el formulario. Tener en cuenta que si se cambia se debe confirmar
+            el correo al momento de realizar el primer envío de formulario-->
+                <h2>Formulario</h2>
+                <div class="input-group">
+                    <label for="name">Nombre: </label>
+                    <input type="text" name="name" id="name" placeholder="Nombre">
+                    <label for="email">Correo: </label>
+                    <input type="email" name="email" id="email" placeholder="Correo">
+                    <label for="edad">Edad: </label>
+                    <input type="number" name="edad" id="edad" placeholder="Edad">
+                    <input class="boton" type="submit" value="Enviar">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/ej01.html">
+                    <input type="hidden" name="_captcha" value="false">
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--Ejercicio 5-->
+    <section id="ej5">
+        <div class="ej">
+            <h1>Ejercicio 5</h1>
+            <p>El ejercicio 5 se visualiza en el color que 
+                tiene el body el cual es #FE0503 y los 
+                encabezados a lo largo de la página cuyo color
+                es #3A3735.
+            </p>
+        </div>
+    </section>
+    <!--Ejercicio 6-->
+    <section id="ej6">
+        <div class="ej">
+            <div class="vertical">
+                <h1 id="h1_ej6">Ejercicio 6</h1>
+                <ul class="slider">
+                    <li id="slide1">
+                        <img src="../img/coche-3d-ciudad-vibrante-noche.jpg">
+                    </li>
+                    <li id="slide2">
+                        <img src="../img/jeep-offroader-blanco-estacionamiento.jpg">
+                    <li id="slide3">
+                        <h2>Texto centrado</h2>
+                    </li>
+                </ul>
+                <ul class="menu">
+                    <li>
+                        <a class="boton_slide" href="#slide1">1</a>
+                    </li>
+                    <li>
+                        <a class="boton_slide" href="#slide2">2</a>
+                    </li>
+                    <li>
+                        <a class="boton_slide" href="#slide3">3</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h1>Hecho por Victor Gómez</h1>
+    </footer>
+</body>
+</html>

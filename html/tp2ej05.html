@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/styletp2ej05.css">
+    <title>Tarea 2 Ejercicio 5</title>
+</head>
+<body>
+    <form action="https://formsubmit.co/vmgomezd@ube.edu.ec" method="POST" id="form">
+        <!--Luego del slash se puede poner la dirección del correo que se quiera
+        que llegue el formulario. Tener en cuenta que si se cambia se debe confirmar
+        el correo al momento de realizar el primer envío de formulario-->
+        <h2>Formulario</h2>
+        <div class="input-group">
+            <label for="name">Nombre: </label>
+            <input type="text" name="name" id="name" placeholder="Nombre">
+            <label for="email">Correo: </label>
+            <input type="email" name="email" id="email" placeholder="Correo">
+            <label for="edad">Contraseña </label>
+            <input type="password" name="password" id="password" placeholder="Contraseña">
+            <input class="boton" type="submit" value="Enviar">
+            <p class="warnings" id="warnings"></p>
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/tp2ej05.html">
+            <input type="hidden" name="_captcha" value="false">
+        </div>
+    </form>
+    <script src="../script/scripttp2ej05.js"></script>
+    <a href="tp2.html"><h3>Volver al inicio</h3></a>
+</body>
+</html>

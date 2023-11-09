@@ -1,0 +1,60 @@
+body {
+    background-color: #94918C;
+    padding: 0;
+    margin: 0;
+}
+#caja {
+    transition: all ease .8s;
+}
+.cajaRoja {
+    background-color: brown;
+    padding: 10px 40px;
+    margin: 30px;
+    border-radius: 10px;
+}
+.cajaAzul {
+    background-color:cornflowerblue;
+    padding: 10px 40px;
+    margin: 30px;
+    border-radius: 10px;
+}
+.textoVerde {
+    color: #5FCE27;
+}
+.textoVioleta {
+    color: #CB27CE;
+}
+a{
+    text-decoration: none;
+}
+h3 {
+    background-color: #3F4247;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+h3:hover {
+    background-color: #fff;
+    color: #3F4247;
+}
+.contenedor {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    background-color: #3F4247;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 0px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #fff;
+    color: #3F4247;
+}

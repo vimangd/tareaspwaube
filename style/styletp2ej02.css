@@ -1,0 +1,80 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #94918C;
+    padding: 0;
+    margin: 0;
+}
+.contenedor {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#contenedor {
+    height: 450px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#contenedor form {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: black;
+}
+#contenedor input[type=textfield] {
+    height: 25%;
+    width: 300px;
+    border-radius: 10px;
+    cursor: default;
+    color: white;
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    border: 0;
+    background-color: black;
+    outline: none;
+}
+#contenedor input[type=button], input[type=reset] {
+    width: 22%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 26px;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 100%;
+}
+.numero {
+    background-color: #656465;
+    color: white;
+}
+.operador {
+    background-color: #656465;
+    color: greenyellow;
+}
+.reset {
+    background-color: #656465;
+    color: #F46655;
+}
+.igual {
+    background-color: greenyellow;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+h3 {
+    background-color: #3F4247;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+h3:hover {
+    background-color: #fff;
+    color: #3F4247;
+}
