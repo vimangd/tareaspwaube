@@ -21,6 +21,8 @@
                 <a class="boton" href="html/cp2.html"><h3>Clase práctica 2</h3></a>
                 <a class="boton" href="html/tp2.html"><h3>Tarea práctica 2</h3></a>
                 <a class="boton" href="./cp3.php"><h3>Clase práctica 3</h3></a>
+                <a class="boton" href="./tp3.php"><h3>Tarea práctica 3</h3></a>
+                <a class="boton" href="./cp4/cp4.php"><h3>Clase práctica 4</h3></a>
             </div>
         </div>
     </section>
