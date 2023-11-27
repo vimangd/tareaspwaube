@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.opciones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px;
+}
+.centrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.hiden {
+    opacity: 0;
+}
+.absoluta {
+    position: absolute;
+    top: 0;
+}
+.relativa {
+    position: relative;
+}
+.color {
+    background-color: aqua;
+}
